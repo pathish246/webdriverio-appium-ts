@@ -113,7 +113,7 @@ export const config: Options.Testrunner = {
     // commands. Instead, they hook themselves up into the test process.
     services: [['appium',{
         args : {
-            address : "192.168.1.102",
+            address : "http://192.168.1.102",
             port : 4723
         }
     }]],
