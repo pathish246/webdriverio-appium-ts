@@ -102,7 +102,7 @@ export const config: Options.Testrunner = {
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
-    connectionRetryTimeout: 120000,
+    connectionRetryTimeout: 15000,
     //
     // Default request retries count
     connectionRetryCount: 3,
@@ -113,7 +113,7 @@ export const config: Options.Testrunner = {
     // commands. Instead, they hook themselves up into the test process.
     services: [['appium',{
         args : {
-            address : "localhost",
+            address : "192.168.1.102",
             port : 4723
         }
     }]],

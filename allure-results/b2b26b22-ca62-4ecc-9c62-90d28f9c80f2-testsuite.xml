@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659933169584' stop='1659933171184'>
+    <name>Todo List</name>
+    <title>Todo List</title>
+    <test-cases>
+        <test-case start='1659933169584' status='passed' stop='1659933171184'>
+            <name>Create a Todo List</name>
+            <title>Create a Todo List</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-13'/>
+            </parameters>
+            <steps>
+                <step start='1659933169586' status='passed' stop='1659933169627'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c1cd7981-d888-416c-8242-4e86e7fa3830-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='6d1ad214-a511-4651-9c29-3deeba2beef5-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659933169632' status='passed' stop='1659933171183'>
+                    <name>POST /session/:sessionId/element/00000000-0000-007c-ffff-ffff0000000a/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-007c-ffff-ffff0000000a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
