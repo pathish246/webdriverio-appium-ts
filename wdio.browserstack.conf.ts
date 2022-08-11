@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { config } = require('./wdio.shared.conf');
+const { config } = require('./wdio.conf.ts');
 
 //
 // ============
